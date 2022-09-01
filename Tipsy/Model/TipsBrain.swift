@@ -11,7 +11,7 @@ import UIKit
 
 struct TipsBrain{
     
-    var billAmount: Float?
+    var billAmount: String?
     var tipPercentage: Float?
     var tipLabel: String!
     var splitBy: Int?
@@ -45,7 +45,7 @@ struct TipsBrain{
     mutating func calculateTip(splitNumberLabel: UILabel, billAmount: Float!) {
         var total = billAmount! * tipPercentage!
         total = total / Float(splitNumberLabel.text!)!
-        self.billAmount = total
+        self.billAmount = String(format: "%.2f", total)
         tipPercentage = tipPercentage!
         splitBy = Int(splitNumberLabel.text!)
     }

@@ -13,7 +13,7 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
     
-    var billAmount: Float?
+    var billAmount: String?
     var tipPercentage: String?
     var splitBy: Int? = 2
     
@@ -25,6 +25,6 @@ class ResultsViewController: UIViewController {
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
-    
+        self.dismiss(animated: true, completion: nil)
     }
 }
