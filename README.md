@@ -1,5 +1,12 @@
 # Tipsy-iOS13
 
+## Home
+
+<img src="images/Home.PNG" width=600px;>
+
+## Result
+<img src="images/Result.PNG" width=600px;>
+
 ## COPYRIGHT
 MIT License
 
