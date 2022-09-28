@@ -6,7 +6,7 @@ An app designed to calculator the tip amount for a bill. The user has the abilit
 - MVC Design Pattern
 - StoryBoards
 - UIKit
-- Creating a linking multiple View Controllers
+- Creating and linking multiple View Controllers
 - Creating and linking IBOutlets and IBActions
 - Creating and mutating structs
 
