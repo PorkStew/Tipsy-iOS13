@@ -1,5 +1,10 @@
 # Tipsy-iOS13
+An app designed to calculator the tip amount for a bill. The user has the ability to enter the total bill amount, select a tip percentage and then choose how many people the bill will be split with. The total amount will be shown when tapping on calculate.
 
+
+### Learnt
+- MVC Design Pattern
+- 
 ## Home
 
 <img src="images/Home.PNG" width=600px;>
